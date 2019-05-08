@@ -1,2 +1,5 @@
 # NASAMeteoritesLanding
 Data Visualization of NASA's dataset of Meteorites Landing
+
+
+This dataset is provided by NASA on their official website. The dataset consists of 10 features. The dataset is of Meteorites' Landings. It contains information about all the tracked meteorites by NASA. It has an interesting column called "Fall" which states the aftermath of meteorites whether or not it fell or it was found. These dataset contains information about the mass of meteorites which is another important feature to keep track of. The mass of meteorites provided are in grams. We don't need to normalize the column in kgs since for our classification problem mass is fine, too, as long as we are able to classify our problem correctly. There are many classes, 422 to be precise, for the meteorites to fall into. These classes are based upon the meteorites size and geolocation. Latitude and Longitude of the meteorites are provided. Other features available are the id associated with meteorites, nametype, name and year.
